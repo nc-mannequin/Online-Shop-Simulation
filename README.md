@@ -50,4 +50,3 @@ ___
 - Classes : Product, Postage, Customer, OnlineShop (main class)
 ___
 You can make two files of customers.txt, one is correctly (do not have to handle) and the other one is wrong (have to handle).
-## ** Don’t hard code !!! ** ##
