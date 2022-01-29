@@ -28,23 +28,23 @@ ___
 - Variables totalBill and totalWeight : keep total bill and total weight of the products he/she orders
 - Add more variables and methods as needed
 4) Implement class OnlineShop as the main class. When the program starts
-4.1 Read data from products.txt into array or ArrayList of Products
-4.2 Read data from postages.txt into array or ArrayList of Postages
-4.3 Read data from customers.txt into array or ArrayList of Customers
-4.4 Process each customer’s order
-- Get postage price from total weight and type
-- Calculate total bill from product prices and postage price
-- Print output with at least : total product price & weight, postage price, and total bill
-4.5 Print summary reports
-- Total bills of all customers sorted in either increasing or decreasing order of the bills
-- Total sales of all products sorted in either increasing or decreasing order of the sales (either in cash or in unit)
+- 4.1 Read data from products.txt into array or ArrayList of Products
+- 4.2 Read data from postages.txt into array or ArrayList of Postages
+- 4.3 Read data from customers.txt into array or ArrayList of Customers
+- 4.4 Process each customer’s order
+  - Get postage price from total weight and type
+  - Calculate total bill from product prices and postage price
+  - Print output with at least : total product price & weight, postage price, and total bill
+- 4.5 Print summary reports
+  - Total bills of all customers sorted in either increasing or decreasing order of the bills
+  - Total sales of all products sorted in either increasing or decreasing order of the sales (either in cash or in unit)
 5) The program must be able to handle the following errors/exceptions
-5.1 Missing files
-5.2 File customers.txt may contain input errors. You may use 2 separate files, one with clean input and another with errors. You can handle these errors by: skipping the whole line (values from this transaction are not added to customer’s points & menu’s total dishes), replacing them with some default values, etc.
-- Missing values, e.g. only 4 products instead of 5 products
-- Format errors, e.g. “O (oh)” instead of “0 (zero)”
-- Invalid numbers, e.g. -5 for number of products
-5.3 Handling the above errors/exceptions means your program must be able to continue and give correct output. Printing messages and ending the program doesn’t count as proper exception handling.
+- 5.1 Missing files
+- 5.2 File customers.txt may contain input errors. You may use 2 separate files, one with clean input and another with errors. You can handle these errors by: skipping the whole line (values from this transaction are not added to customer’s points & menu’s total dishes), replacing them with some default values, etc.
+  - Missing values, e.g. only 4 products instead of 5 products
+  - Format errors, e.g. “O (oh)” instead of “0 (zero)”
+  - Invalid numbers, e.g. -5 for number of products
+- 5.3 Handling the above errors/exceptions means your program must be able to continue and give correct output. Printing messages and ending the program doesn’t count as proper exception handling.
 6. In summary, your program must have
 - Files : products.txt, postages.txt, customers.txt with your own data (10 lines)
 - Classes : Product, Postage, Customer, OnlineShop (main class)
